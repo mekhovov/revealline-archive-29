@@ -1,2 +1,15 @@
-# revealline-archive-29
-Immutable RevealLine releases retained for historical play and comparison.
+# RevealLine Archive29: original v0.61.23
+
+This candidate retains the exact published v0.61.23 distribution. Repository creation, hosted extraction/deployment, full archive HTTP verification and archive-native admission are pending. The proposed archive URL is not a verified deployment.
+
+The frozen game source is `2f1074a37ade9c731ea7be37a6e56e533b51d1ac`, tree `4e04fef2d0d37614149624392e316742a513bc8d`, annotated tag `b956962dd2c0b3023cef2b7e0eaa0e092ab55e65`, release 391779301. [Input authority](input-authority.json) pins all nine original assets and four original metadata bodies; [source lock](source-lock.json) binds the original ZIP, qualification and exact extractor. No historical rebuild or source.tar is used.
+
+The complete [expected inventory](expected-inventory.json) has 702 unique rows / 313,450,172 bytes: 699 release rows / 313,448,775 bytes plus the root index, release-explorer redirect and hidden .nojekyll marker. This new archive has zero prior accepted or preserved paths and zero changed prior paths. All 702 rows are new; 486,549,828 bytes remain under the unchanged 800,000,000-byte budget. Archive28 remains untouched because adding this cohort there would exceed its budget.
+
+The workflow explicitly fetches the sole locked v0.61.23 tag, checks its annotated object and peeled source, runs the pinned original-ZIP extractor and independent complete-byte verifier, and checks the same authorities again. It keeps the 3 GiB hosted free-space guard, 20,000-row limit, main-only deployment and noncancelling publication concurrency. Local preparation runs only tiny archive/extractor fixtures and declared tag coverage; it does not download the original payload or run the full extraction pipeline.
+
+Main v0.61.23 has separate scoped acceptance for focused controls/full outlines inside bordered dialog scrollports across rotation. Its original main audit covered 3,255 files / 642,999,818 bytes with one recovered retry and no final failures/skips. Both full source families ran 5,925 tests across 466 files on actual hosted Node 20.19.6; focused Node 20/22 checks are separate. These source/main receipts do not qualify this new archive deployment.
+
+Enemy Workshop and Pictures & stories are shipped. Narrow Solo Pause labels, 280px Large HUD clipping, Brief action layout and stale Workshop reload feedback remain separate limits. P03/P05/P18, physical controller/touch, actual zoom, audio/offline and lifecycle acceptance remain open. A source or future release correction does not amend this immutable edition.
+
+Root must retain the actual successful archive run/deployment/small receipt, independently reconcile all 702 public rows and attempts with fresh unchanged authorities, and record actual archive keyboard entry, gameplay/Pause/Resume, affected focus/rotation and release-explorer return before admission. Preserve existing save ownership and disclose session-only behavior; shared origin does not prove storage isolation. Workflow success alone is not archive acceptance.
